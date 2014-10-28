@@ -71,6 +71,7 @@ var Engine = (function(global) {
 
     function reset() {
         // noop
+        player = new Player();
     }
 
     Resources.load([
